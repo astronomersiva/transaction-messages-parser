@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+{
+  "account": {
+    "name": null,
+    "number": "x5203",
+    "number_formatted": "x5203",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 141.12,
+    "currency": "INR",
+    "date": "Sun Feb 25 2024 16:41:20 GMT+0530 (India Standard Time)",
+    "merchant": "Swiggy",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 2`] = `
+{
+  "account": {
+    "name": null,
+    "number": "x5203",
+    "number_formatted": "x5203",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 141,
+    "currency": "INR",
+    "date": "Sun Feb 25 2024 16:41:20 GMT+0530 (India Standard Time)",
+    "merchant": "Swiggy",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 3`] = `
+{
+  "account": {
+    "name": null,
+    "number": "xx4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 959.1,
+    "currency": "INR",
+    "date": "Tue Dec 19 2023 15:07:06 GMT+0530 (India Standard Time)",
+    "merchant": "PAYPAL *CLOUDFLARE",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 4`] = `
+{
+  "account": {
+    "name": null,
+    "number": "x4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 2191,
+    "currency": "INR",
+    "date": "Thu Feb 15 2024 21:58:55 GMT+0530 (India Standard Time)",
+    "merchant": "BUNDL TECHNOLOGIES PVT",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 5`] = `
+{
+  "account": {
+    "name": null,
+    "number": "xx4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 25,
+    "currency": "INR",
+    "date": "Sat Nov 11 2023 07:13:58 GMT+0530 (India Standard Time)",
+    "merchant": "TRAVEL CLUB LOUNGE",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 6`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XXXXXX5913",
+    "number_formatted": "x5913",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 11,
+    "currency": "INR",
+    "date": "Tue Feb 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "goog-payment@okaxis",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 7`] = `
+{
+  "account": {
+    "name": null,
+    "number": "**5913",
+    "number_formatted": "x5913",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 890,
+    "currency": "INR",
+    "date": "Sun Feb 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "Shell India Markets Pvt Ltd",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 8`] = `
+{
+  "account": {
+    "name": null,
+    "number": "*5913",
+    "number_formatted": "x5913",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 23,
+    "currency": "INR",
+    "date": "Sun Feb 25 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "VARUN MIDDLENAME LASTNAME",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 9`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5489",
+    "number_formatted": "x5489",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 12345,
+    "currency": "INR",
+    "date": "Wed Jan 31 2024 20:05:04 GMT+0530 (India Standard Time)",
+    "merchant": "DREAMPLUG T",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 10`] = `
+{
+  "account": {
+    "name": null,
+    "number": "x0613",
+    "number_formatted": "x0613",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 1500,
+    "currency": "INR",
+    "date": "Sat Feb 17 2024 06:59:46 GMT+0530 (India Standard Time)",
+    "merchant": "NEELKANTH PETROLEUM",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 11`] = `
+{
+  "account": {
+    "name": null,
+    "number": "x0613",
+    "number_formatted": "x0613",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 2500,
+    "currency": "INR",
+    "date": "Fri Feb 16 2024 19:07:26 GMT+0530 (India Standard Time)",
+    "merchant": "ABC CORP CAPTIVE",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 12`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX8167",
+    "number_formatted": "x8167",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 305,
+    "currency": "INR",
+    "date": "Sat Jan 06 2024 15:06:10 GMT+0530 (India Standard Time)",
+    "merchant": "HOTEL NEW ARCOT",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 13`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX8167",
+    "number_formatted": "x8167",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 305,
+    "currency": "INR",
+    "date": "Sat Jan 06 2024 15:06:10 GMT+0530 (India Standard Time)",
+    "merchant": "HOTEL NEW ARCOT",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 14`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX4000",
+    "number_formatted": "x4000",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 1516,
+    "currency": "INR",
+    "date": "Wed Feb 21 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "IND*Amazon",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 15`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX8167",
+    "number_formatted": "x8167",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 23000,
+    "currency": "INR",
+    "date": "Fri Aug 18 2023 11:55:29 GMT+0530 (India Standard Time)",
+    "merchant": "SATHISHKU/HDFC BANK",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 16`] = `null`;
