@@ -15,7 +15,7 @@ export default class Parser {
     const message = this.#message;
     let engineName = getEngine(message);
 
-    if(engineName) {
+    if (engineName) {
       const Engine: new(message: string) => Engine = await import(`./engines/${engineName}.js`).then((module) => module.default);
       this.#engine = new Engine(message);
     }

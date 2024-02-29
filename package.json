@@ -1,20 +1,24 @@
 {
   "name": "transaction-messages-parser",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "build": "tsc"
   },
   "files": [
-    "dist",
-    "package.json"
+    "dist"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "transaction",
+    "parser",
+    "bank sms"
+  ],
+  "author": "Sivasubramanyam A<sivasubramanyama@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.21",
