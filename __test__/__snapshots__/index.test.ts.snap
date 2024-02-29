@@ -270,4 +270,218 @@ exports[`main 15`] = `
 }
 `;
 
-exports[`main 16`] = `null`;
+exports[`main 16`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX187",
+    "number_formatted": "x187",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 123,
+    "currency": "INR",
+    "date": "Wed Feb 28 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "SATHISHKUMAR PA",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 17`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX187",
+    "number_formatted": "x187",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 870,
+    "currency": "INR",
+    "date": "Tue Oct 17 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "Mr BALASURYA P",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 18`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX187",
+    "number_formatted": "x187",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 2500,
+    "currency": "INR",
+    "date": "Thu Jul 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "S SRIKOWSIKAA",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 19`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 123456.78,
+    "currency": "INR",
+    "date": null,
+    "merchant": "Salary",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 20`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 12345,
+    "currency": "INR",
+    "date": null,
+    "merchant": "Salary",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 21`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 50000,
+    "currency": "INR",
+    "date": "Sun Dec 03 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": null,
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 22`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 12345,
+    "currency": "INR",
+    "date": "Tue Oct 24 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": null,
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 23`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 3121,
+    "currency": "INR",
+    "date": "Sun Feb 05 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "xxxxxxxxxxx9426",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 24`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 3405,
+    "currency": "INR",
+    "date": null,
+    "merchant": null,
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 25`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 1933.5,
+    "currency": "INR",
+    "date": null,
+    "merchant": null,
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 26`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 15000,
+    "currency": "INR",
+    "date": "Thu Oct 26 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "xxxxxxxxxxx2621",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 27`] = `
+{
+  "account": {
+    "name": null,
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 5000,
+    "currency": "INR",
+    "date": "Thu Feb 08 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "ACH D- Groww Pay Services P",
+    "type": "debit",
+  },
+}
+`;

@@ -16,6 +16,16 @@ const ParsingEngines = [
     engine: 'HDFCDebitCard',
     rule: /hdfc bank card.*block dc/i,
   }, {
+    engine: 'HDFCBankTransfer',
+    rule: [
+      /credited\sto\sHDFC\sBank/,
+      /deposited\sin\sHDFC\sBank/,
+      /^Money\sTransferred\s-\s/,
+      /via\sHDFC\sBank\sOnline\sBanking/,
+      /\nFrom\sHDFC\sBank\sA\/c/,
+      /^UPDATE:.+debited\sfrom\sHDFC\sBank/,
+    ],
+  }, {
     engine: 'AxisUPI',
     rule: /UPI\/P2[MA]/,
   }, {
@@ -24,6 +34,12 @@ const ParsingEngines = [
   }, {
     engine: 'ICICICreditCard',
     rule: /ICICI Bank Card/,
+  }, {
+    engine: 'ICICIUPI',
+    rule: [
+      /\bICICI\sBank\sAcct.*UPI\:\d{12}/,
+      /\bDear\sCustomer,\sAcct\sXX\d{3}.*UPI\:\d{12}-ICICI\sBank/
+    ]
   }
 ]
 
