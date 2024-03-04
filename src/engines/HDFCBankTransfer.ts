@@ -75,22 +75,14 @@ export default class HDFCBankTransfer extends Engine {
 
     if (this.message.includes('salary of')) {
       merchant = 'Salary';
-    }
-
-    if (this.message.includes('deposited in')) {
-      merchant = /\bCr-\w{11}-([\w\s]+)-\w{11}\./.exec(this.message)?.[1] || null;
-    }
-
-    if (this.message.startsWith('Money Transferred')) {
+    } else if (this.message.includes('deposited in')) {
+      merchant = /\bCr-\w{11}-([\s\w]+)-[\s\S\w]+-\w+\./.exec(this.message)?.[1] || null;
+    } else if (this.message.startsWith('Money Transferred')) {
       merchant = /to\sA\/c\s(.*)\.\s\(/.exec(this.message)?.[1] || null;
-    }
-
-    if (this.message.startsWith('Money Sent')) {
+    } else if (this.message.startsWith('Money Sent')) {
       const merchantLines = this.message.split('\n')[2];
       merchant = merchantLines.split(' ')[2] || null;
-    }
-
-    if (this.message.startsWith('UPDATE')) {
+    } else if (this.message.startsWith('UPDATE')) {
       merchant = /\bInfo:\s(.+)-\w{12}\./.exec(this.message)?.[1] || null;
     }
 
