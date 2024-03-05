@@ -19,6 +19,16 @@ export default abstract class Engine {
       transaction: transactionData,
     };
 
+    if (transaction?.account?.number) {
+      transaction.account.number_formatted = transaction.account.number
+        .replace(/x+/gi, 'x')
+        .replace(/\*+/g, 'x');
+  
+      if (!transaction.account.number_formatted.startsWith('x')) {
+        transaction.account.number_formatted = `x${transaction.account.number_formatted}`;
+      }
+    }
+
     return transaction;
   }
 }

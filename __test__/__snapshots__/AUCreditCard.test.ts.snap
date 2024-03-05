@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+{
+  "account": {
+    "number": "xx1857",
+    "number_formatted": "x1857",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 417.38,
+    "currency": "INR",
+    "date": "Tue Jan 23 2024 18:38:00 GMT+0530 (India Standard Time)",
+    "merchant": "BOOKMYSHOW",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 2`] = `
+{
+  "account": {
+    "number": "xx1857",
+    "number_formatted": "x1857",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 417.38,
+    "currency": "INR",
+    "date": "Tue Jan 23 2024 00:38:00 GMT+0530 (India Standard Time)",
+    "merchant": "BOOKMYSHOW",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 3`] = `
+{
+  "account": {
+    "number": "xx1857",
+    "number_formatted": "x1857",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 417.38,
+    "currency": "INR",
+    "date": "Tue Jan 23 2024 12:38:00 GMT+0530 (India Standard Time)",
+    "merchant": "BOOKMYSHOW",
+    "type": "debit",
+  },
+}
+`;

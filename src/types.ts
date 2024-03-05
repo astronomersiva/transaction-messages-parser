@@ -7,7 +7,7 @@ export enum AccountType {
 export type TransactionType = 'debit' | 'credit';
 
 export interface Account {
-  name: string | null;
+  name?: string | null;
   number: string | null;
   number_formatted?: string | null;
   type: AccountType | null;

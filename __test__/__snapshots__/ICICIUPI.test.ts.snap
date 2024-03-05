@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+{
+  "account": {
+    "number": "XX187",
+    "number_formatted": "x187",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 870,
+    "currency": "INR",
+    "date": "Tue Oct 17 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "Mr BALASURYA P",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 2`] = `
+{
+  "account": {
+    "number": "XX187",
+    "number_formatted": "x187",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 2500,
+    "currency": "INR",
+    "date": "Thu Jul 20 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "S SRIKOWSIKAA",
+    "type": "credit",
+  },
+}
+`;

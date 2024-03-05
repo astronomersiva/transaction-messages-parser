@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 5000,
+    "currency": "INR",
+    "date": "Thu Feb 08 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "ACH D- Groww Pay Services P",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 2`] = `
+{
+  "account": {
+    "number": "XX8198",
+    "number_formatted": "x8198",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 112345,
+    "currency": "INR",
+    "date": "Wed Feb 28 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "MYCOMPANY INTERNET PRIVATE LIMITED",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 3`] = `null`;
+
+exports[`main 4`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 15000,
+    "currency": "INR",
+    "date": "Thu Oct 26 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "xxxxxxxxxxx2621",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 5`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 12345,
+    "currency": "INR",
+    "date": "Tue Oct 24 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "ZERODHA BROKING LTD",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 6`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 3121,
+    "currency": "INR",
+    "date": "Sun Feb 05 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "xxxxxxxxxxx9426",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 7`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 3405,
+    "currency": "INR",
+    "date": null,
+    "merchant": null,
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 8`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 1933.5,
+    "currency": "INR",
+    "date": null,
+    "merchant": null,
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 9`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 50000,
+    "currency": "INR",
+    "date": "Sun Dec 03 2023 00:00:00 GMT+0530 (India Standard Time)",
+    "merchant": "AYYAPPAN A",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 10`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 123456.78,
+    "currency": "INR",
+    "date": null,
+    "merchant": "Salary",
+    "type": "credit",
+  },
+}
+`;
+
+exports[`main 11`] = `
+{
+  "account": {
+    "number": "XX5913",
+    "number_formatted": "x5913",
+    "type": "account",
+  },
+  "transaction": {
+    "amount": 12345,
+    "currency": "INR",
+    "date": null,
+    "merchant": "Salary",
+    "type": "credit",
+  },
+}
+`;

@@ -5,13 +5,9 @@ import { TransactionData, Account, AccountType } from '../types.js';
 
 export default class HDFCCard extends Engine {
   protected getAccountDetails(): Account {
-    // messages do not have the card name
-    const accountName = null;
-
     const creditCardNumber = this.message.match(/x(x)?\d{4}/gi)?.[0] || null;
 
     return {
-      name: accountName,
       number: creditCardNumber,
       type: AccountType.CARD,
     };

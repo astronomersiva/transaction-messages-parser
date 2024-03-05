@@ -3,25 +3,11 @@ import Engine from './_Engine.js';
 
 import { TransactionData, Account, AccountType } from '../types.js';
 
-/*
-  Spent
-  Card no. XX5489
-  INR 25383
-  31-01-24 20:05:04
-  DREAMPLUG T
-  Avl Lmt INR 12345.6
-  SMS BLOCK 5489 to 919951860002, if not you - Axis Bank
-*/
-
 export default class AxisCard extends Engine {
   protected getAccountDetails(): Account {
-    // messages do not have the card name
-    const accountName = null;
-
     const creditCardNumber = this.message.split('\n')[1].split(' ')[2];
 
     return {
-      name: accountName,
       number: creditCardNumber,
       type: AccountType.CARD,
     };

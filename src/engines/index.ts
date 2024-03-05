@@ -37,9 +37,15 @@ const ParsingEngines = [
   }, {
     engine: 'ICICIUPI',
     rule: [
-      /\bICICI\sBank\sAcct.*UPI\:\d{12}/,
-      /\bDear\sCustomer,\sAcct\sXX\d{3}.*UPI\:\d{12}-ICICI\sBank/
+      /\bICICI\sBank\sAcct.*UPI:\d{12}/,
+      /\bDear\sCustomer,\sAcct\sXX\d{3}.*UPI:\d{12}-ICICI\sBank/
     ]
+  }, {
+    engine: 'AmexCreditCard',
+    rule: /on your AMEX card/,
+  }, {
+    engine: 'AUCreditCard',
+    rule: /spent on your AU Bank Credit Card/,
   }
 ]
 

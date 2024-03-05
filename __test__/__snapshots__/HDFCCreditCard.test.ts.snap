@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+{
+  "account": {
+    "number": "x5203",
+    "number_formatted": "x5203",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 141.12,
+    "currency": "INR",
+    "date": "Sun Feb 25 2024 16:41:20 GMT+0530 (India Standard Time)",
+    "merchant": "Swiggy",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 2`] = `
+{
+  "account": {
+    "number": "x5203",
+    "number_formatted": "x5203",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 141,
+    "currency": "INR",
+    "date": "Sun Feb 25 2024 16:41:20 GMT+0530 (India Standard Time)",
+    "merchant": "Swiggy",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 3`] = `
+{
+  "account": {
+    "number": "xx4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 959.1,
+    "currency": "INR",
+    "date": "Tue Dec 19 2023 15:07:06 GMT+0530 (India Standard Time)",
+    "merchant": "PAYPAL *CLOUDFLARE",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 4`] = `
+{
+  "account": {
+    "number": "x4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 2191,
+    "currency": "INR",
+    "date": "Thu Feb 15 2024 21:58:55 GMT+0530 (India Standard Time)",
+    "merchant": "BUNDL TECHNOLOGIES PVT",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 5`] = `
+{
+  "account": {
+    "number": "xx4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 25,
+    "currency": "INR",
+    "date": "Sat Nov 11 2023 07:13:58 GMT+0530 (India Standard Time)",
+    "merchant": "TRAVEL CLUB LOUNGE",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 6`] = `
+{
+  "account": {
+    "number": "x4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 199,
+    "currency": "INR",
+    "date": "Tue Feb 27 2024 23:13:23 GMT+0530 (India Standard Time)",
+    "merchant": "NETFLIX",
+    "type": "debit",
+  },
+}
+`;

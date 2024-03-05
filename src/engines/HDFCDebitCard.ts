@@ -2,11 +2,6 @@ import HDFCCard from './_HDFCCard.js';
 
 import { TransactionData } from '../types.js';
 
-/*
-  Rs.1500 spent on HDFC Bank Card x0613 at NEELKANTH PETROLEUM on 2024-02-17:06:59:46 Avl bal: 123456.06.Not You? Call 18002586161 / SMS BLOCK DC 0613 to 7308080808
-  Rs.2500 withdrawn from HDFC Bank Card x0613 at ABC CORP CAPTIVE on 2024-02-16:19:07:26 Avl bal: 12345.06.Not You? Call 18002586161/SMS BLOCK DC 0613 to 7308080808
-*/
-
 export default class HDFCDebitCard extends HDFCCard {
   protected getTransactionDetails(): TransactionData {
     const merchant = /at\s(.+?)\son/gi.exec(this.message)?.[1] || /By\s(.+?)\son/gi.exec(this.message)?.[1] || null;

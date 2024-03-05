@@ -13,7 +13,7 @@ export default class Parser {
 
   async #setEngine() {
     const message = this.#message;
-    let engineName = getEngine(message);
+    const engineName = getEngine(message);
 
     if (engineName) {
       const Engine: new(message: string) => Engine = await import(`./engines/${engineName}.js`).then((module) => module.default);
@@ -28,6 +28,6 @@ export default class Parser {
       return null;
     }
 
-    return this.#engine.getTransaction();
+    return await this.#engine.getTransaction();
   }
 }

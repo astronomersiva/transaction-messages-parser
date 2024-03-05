@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main 1`] = `
+{
+  "account": {
+    "number": "XX8167",
+    "number_formatted": "x8167",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 305,
+    "currency": "INR",
+    "date": "Sat Jan 06 2024 15:06:10 GMT+0530 (India Standard Time)",
+    "merchant": "HOTEL NEW ARCOT",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 2`] = `
+{
+  "account": {
+    "number": "XX8167",
+    "number_formatted": "x8167",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 305,
+    "currency": "INR",
+    "date": "Sat Jan 06 2024 15:06:10 GMT+0530 (India Standard Time)",
+    "merchant": "HOTEL NEW ARCOT",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 3`] = `
+{
+  "account": {
+    "number": "XX8167",
+    "number_formatted": "x8167",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 23000,
+    "currency": "INR",
+    "date": "Fri Aug 18 2023 11:55:29 GMT+0530 (India Standard Time)",
+    "merchant": "SATHISHKU/HDFC BANK",
+    "type": "credit",
+  },
+}
+`;

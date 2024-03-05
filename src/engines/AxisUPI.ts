@@ -1,19 +1,3 @@
-// Debit
-// INR 305.00
-// A/c no. XX8167
-// 06-01-24 15:06:10
-// UPI/P2M/437284075934/HOTEL NEW ARCOT
-// SMS BLOCKUPI Cust ID to 919951860002, if not you - Axis Bank
-
-// Debit
-// INR 305.00
-// A/c no. XX8167
-// 06-01-24 15:06:10
-// UPI/P2A/437284075934/HOTEL NEW ARCOT
-// SMS BLOCKUPI Cust ID to 919951860002, if not you - Axis Bank
-
-// INR 23000.00 credited to A/c no. XX8167 on 18-08-23 at 11:55:29 IST. Info- UPI/P2A/323079253103/SATHISHKU/HDFC BANK - Axis Bank
-
 import getDate from '../utils/getDate.js';
 import Engine from './_Engine.js';
 
@@ -25,11 +9,9 @@ export default class AxisUPI extends Engine {
   }
 
   #getCreditAccountDetails(): Account {
-    const accountName = null;
     const accountNumber = /\bcredited\sto\sA\/c\sno\.\s(X{2}\d{4})/.exec(this.message)?.[1] || null;
 
     return {
-      name: accountName,
       number: accountNumber,
       type: AccountType.UPI,
     };
@@ -40,13 +22,9 @@ export default class AxisUPI extends Engine {
       return this.#getCreditAccountDetails();
     }
 
-    // messages do not have the card name
-    const accountName = null;
-
     const accountNumber = this.message.split('\n')[2].split(' ')[2];
 
     return {
-      name: accountName,
       number: accountNumber,
       type: AccountType.UPI,
     };
