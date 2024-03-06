@@ -6,7 +6,9 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:lint": "eslint .",
+    "test:unit": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test": "npm run test:lint && npm run test:unit",
     "build": "tsc"
   },
   "files": [
