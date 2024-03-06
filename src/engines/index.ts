@@ -29,6 +29,9 @@ const ParsingEngines = [
     engine: 'AxisUPI',
     rule: /UPI\/P2[MA]/,
   }, {
+    engine: 'AxisBankTransfer',
+    rule: /SMS BLOCKALL.*- Axis Bank/,
+  }, {
     engine: 'AxisCard',
     rule: /if not you - Axis Bank/,
   }, {
