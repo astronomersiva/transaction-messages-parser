@@ -10,7 +10,7 @@ exports[`main 1`] = `
   "transaction": {
     "amount": 948,
     "currency": "INR",
-    "date": "Wed Dec 20 2023 00:02:00 GMT+0530 (India Standard Time)",
+    "date": "Wed Dec 20 2023 00:02:00 GMT+0000 (India Standard Time)",
     "merchant": "PPSL RETAIL ",
     "type": "debit",
   },
@@ -27,7 +27,7 @@ exports[`main 2`] = `
   "transaction": {
     "amount": 3536.46,
     "currency": "INR",
-    "date": "Mon Dec 25 2023 12:53:00 GMT+0530 (India Standard Time)",
+    "date": "Mon Dec 25 2023 12:53:00 GMT+0000 (India Standard Time)",
     "merchant": "MAXX",
     "type": "debit",
   },

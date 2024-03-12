@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "test:lint": "eslint .",
-    "test:unit": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test:unit": "TZ=IST node --experimental-vm-modules node_modules/.bin/jest",
     "test": "npm run test:lint && npm run test:unit",
     "build": "tsc"
   },

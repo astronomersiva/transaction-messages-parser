@@ -10,7 +10,7 @@ exports[`main 1`] = `
   "transaction": {
     "amount": 234.82,
     "currency": "INR",
-    "date": "Wed Mar 06 2024 07:44:40 GMT+0530 (India Standard Time)",
+    "date": "Wed Mar 06 2024 07:44:40 GMT+0000 (India Standard Time)",
     "merchant": "AUTOBPay/JioPostpai/406696",
     "type": "debit",
   },

@@ -10,7 +10,7 @@ exports[`main 1`] = `
   "transaction": {
     "amount": 1516,
     "currency": "INR",
-    "date": "Wed Feb 21 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "date": "Wed Feb 21 2024 00:00:00 GMT+0000 (India Standard Time)",
     "merchant": "IND*Amazon",
     "type": "debit",
   },
@@ -27,7 +27,7 @@ exports[`main 2`] = `
   "transaction": {
     "amount": 123,
     "currency": "INR",
-    "date": "Wed Feb 28 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "date": "Wed Feb 28 2024 00:00:00 GMT+0000 (India Standard Time)",
     "merchant": "SATHISHKUMAR PA",
     "type": "debit",
   },

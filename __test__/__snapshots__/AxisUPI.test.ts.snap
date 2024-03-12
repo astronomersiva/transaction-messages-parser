@@ -10,7 +10,7 @@ exports[`main 1`] = `
   "transaction": {
     "amount": 305,
     "currency": "INR",
-    "date": "Sat Jan 06 2024 15:06:10 GMT+0530 (India Standard Time)",
+    "date": "Sat Jan 06 2024 15:06:10 GMT+0000 (India Standard Time)",
     "merchant": "HOTEL NEW ARCOT",
     "type": "debit",
   },
@@ -27,7 +27,7 @@ exports[`main 2`] = `
   "transaction": {
     "amount": 305,
     "currency": "INR",
-    "date": "Sat Jan 06 2024 15:06:10 GMT+0530 (India Standard Time)",
+    "date": "Sat Jan 06 2024 15:06:10 GMT+0000 (India Standard Time)",
     "merchant": "HOTEL NEW ARCOT",
     "type": "debit",
   },
@@ -44,7 +44,7 @@ exports[`main 3`] = `
   "transaction": {
     "amount": 23000,
     "currency": "INR",
-    "date": "Fri Aug 18 2023 11:55:29 GMT+0530 (India Standard Time)",
+    "date": "Fri Aug 18 2023 11:55:29 GMT+0000 (India Standard Time)",
     "merchant": "SATHISHKU/HDFC BANK",
     "type": "credit",
   },

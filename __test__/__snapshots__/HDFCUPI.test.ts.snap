@@ -10,7 +10,7 @@ exports[`main 1`] = `
   "transaction": {
     "amount": 11,
     "currency": "INR",
-    "date": "Tue Feb 20 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "date": "Tue Feb 20 2024 00:00:00 GMT+0000 (India Standard Time)",
     "merchant": "goog-payment@okaxis",
     "type": "credit",
   },
@@ -27,7 +27,7 @@ exports[`main 2`] = `
   "transaction": {
     "amount": 890,
     "currency": "INR",
-    "date": "Sun Feb 11 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "date": "Sun Feb 11 2024 00:00:00 GMT+0000 (India Standard Time)",
     "merchant": "Shell India Markets Pvt Ltd",
     "type": "debit",
   },
@@ -44,7 +44,7 @@ exports[`main 3`] = `
   "transaction": {
     "amount": 23,
     "currency": "INR",
-    "date": "Sun Feb 25 2024 00:00:00 GMT+0530 (India Standard Time)",
+    "date": "Sun Feb 25 2024 00:00:00 GMT+0000 (India Standard Time)",
     "merchant": "VARUN MIDDLENAME LASTNAME",
     "type": "debit",
   },
