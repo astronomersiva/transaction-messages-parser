@@ -1,6 +1,6 @@
 {
   "name": "transaction-messages-parser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
     "test:lint": "eslint .",
     "test:unit": "TZ=IST node --experimental-vm-modules node_modules/.bin/jest",
     "test": "npm run test:lint && npm run test:unit",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "files": [
     "dist"
