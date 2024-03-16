@@ -1,7 +1,7 @@
 {
   "name": "transaction-messages-parser",
   "version": "0.0.5",
-  "description": "",
+  "description": "This is a WIP project to parse transaction messages(email and SMS) from different banks and extract the relevant information from them.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -22,6 +22,7 @@
   ],
   "author": "Sivasubramanyam A<sivasubramanyama@gmail.com>",
   "license": "MIT",
+  "repository": "github:astronomersiva/transaction-messages-parser",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.21",
