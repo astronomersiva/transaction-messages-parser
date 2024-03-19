@@ -32,7 +32,7 @@ export default class HDFCCard extends Engine {
     const _amount = /Rs\s(\d+\.\d{2})/.exec(this.message)?.[1] || null;
     const amount = _amount ? parseFloat(_amount) : null;
 
-    const type = /^We're pleased to inform you that a transaction reversal has been initiated/.test(this.message) ? 'credit' : 'debit';
+    const type = /We're pleased to inform you that a transaction reversal has been initiated/.test(this.message) ? 'credit' : 'debit';
 
     return {
       amount,
