@@ -4,8 +4,6 @@ This is a WIP project to parse transaction messages(email and SMS) from differen
 
 ### Currently supported banks/institutions:
 
-**Only SMS parsing is supported as of now.**
-
 - [x] American Express
   - [x] Credit Card
 - [ ] AU Small Finance Bank
@@ -16,10 +14,10 @@ This is a WIP project to parse transaction messages(email and SMS) from differen
   - [x] Savings Account
   - [x] UPI
 - [x] HDFC Bank
-  - [x] Credit Card
-  - [x] Debit Card
+  - [x] Credit Card - **SMS and Email**
+  - [x] Debit Card - **SMS and Email**
   - [x] Savings Account
-  - [x] UPI
+  - [x] UPI - **SMS and Email**
 - [x] ICICI Bank
   - [x] Credit Card
   - [ ] Debit Card

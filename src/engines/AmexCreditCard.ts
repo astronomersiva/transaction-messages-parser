@@ -34,7 +34,7 @@ export default class AmexCreditCard extends Engine {
 
     const date = this.#getDate(this.message);
 
-    const merchant = /at\s(.+?)\son/gi.exec(this.message)?.[1] || null;
+    const merchant = /\bat\s(.+?)\son/gi.exec(this.message)?.[1] || null;
 
     const type = /You've spent/.test(this.message) ? 'debit' : 'credit';
 

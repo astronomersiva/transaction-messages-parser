@@ -101,3 +101,37 @@ exports[`main 6`] = `
   },
 }
 `;
+
+exports[`main 7`] = `
+{
+  "account": {
+    "number": "4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 2165,
+    "currency": "INR",
+    "date": "Tue Mar 12 2024 22:39:20 GMT+0000 (India Standard Time)",
+    "merchant": "BUNDL TECHNOLOGIES PVT",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 8`] = `
+{
+  "account": {
+    "number": "4540",
+    "number_formatted": "x4540",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 25,
+    "currency": "INR",
+    "date": "Sat Nov 11 2023 07:13:58 GMT+0000 (India Standard Time)",
+    "merchant": "TRAVEL CLUB LOUNGE",
+    "type": "credit",
+  },
+}
+`;

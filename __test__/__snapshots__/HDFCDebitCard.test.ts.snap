@@ -33,3 +33,20 @@ exports[`main 2`] = `
   },
 }
 `;
+
+exports[`main 3`] = `
+{
+  "account": {
+    "number": "0613",
+    "number_formatted": "x0613",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 2500,
+    "currency": "INR",
+    "date": "Mon Mar 11 2024 21:08:07 GMT+0000 (India Standard Time)",
+    "merchant": "PACIFIC ENTERPRISES",
+    "type": "debit",
+  },
+}
+`;

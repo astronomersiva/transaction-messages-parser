@@ -1,17 +1,26 @@
 const ParsingEngines = [
   {
+    engine: 'HDFCCardEmail',
+    rule: [
+      /Thank you for using your HDFC Bank (Credit|Debit) Card/,
+      /We're pleased to inform you that a transaction reversal has been initiated/
+    ],
+  }, {
     engine: 'HDFCCreditCard',
     rule: [
       /On HDFC Bank CREDIT Card/,
       /hdfc bank card.*block cc/i,
-    ]
+    ],
+  }, {
+    engine: 'HDFCUPIEmail',
+    rule: /You have done a UPI txn. Check details/,
   }, {
     engine: 'HDFCUPI',
     rule: [
       /\bFrom HDFC Bank[\s\S]*SMS BLOCK UPI/,
       /\bHDFC Bank.*a\/c linked to VPA/,
       /^Money Transfer:.*UPI:/
-    ]
+    ],
   }, {
     engine: 'HDFCDebitCard',
     rule: /hdfc bank card.*block dc/i,

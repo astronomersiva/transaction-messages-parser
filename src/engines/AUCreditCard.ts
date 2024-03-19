@@ -34,7 +34,7 @@ export default class AUCreditCard extends Engine {
 
     const date = this.#getDate(this.message);
 
-    const merchant = /at\s(.+?)\son/gi.exec(this.message)?.[1] || null;
+    const merchant = /\bat\s(.+?)\son/gi.exec(this.message)?.[1] || null;
 
     const type = /spent/.test(this.message) ? 'debit' : 'credit';
 

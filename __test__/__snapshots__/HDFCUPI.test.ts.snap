@@ -50,3 +50,37 @@ exports[`main 3`] = `
   },
 }
 `;
+
+exports[`main 4`] = `
+{
+  "account": {
+    "number": "**5913",
+    "number_formatted": "x5913",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 2500,
+    "currency": "INR",
+    "date": "Fri Jan 19 2024 00:00:00 GMT+0000 (India Standard Time)",
+    "merchant": "paytm-11129222@paytm",
+    "type": "debit",
+  },
+}
+`;
+
+exports[`main 5`] = `
+{
+  "account": {
+    "number": "XX8666",
+    "number_formatted": "x8666",
+    "type": "upi",
+  },
+  "transaction": {
+    "amount": 110,
+    "currency": "INR",
+    "date": "Mon Mar 18 2024 00:00:00 GMT+0000 (India Standard Time)",
+    "merchant": "paytmqr1i8bn28ao1@paytm",
+    "type": "debit",
+  },
+}
+`;
