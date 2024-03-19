@@ -1,6 +1,6 @@
 {
   "name": "transaction-messages-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is a WIP project to parse transaction messages(email and SMS) from different banks and extract the relevant information from them.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

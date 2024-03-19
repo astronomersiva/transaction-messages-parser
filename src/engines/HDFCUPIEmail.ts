@@ -17,7 +17,7 @@ export default class HDFCUPI extends Engine {
 
   #getMerchant(): string | null {
     const merchant = /\bVPA\s(.*)\son/.exec(this.message)?.[1]
-      || /\bto\s(.*)\son/.exec(this.message)?.[1]
+      || /X{1,2}\d{4}\sto\s(.*)\son/.exec(this.message)?.[1]
       || null;
 
     return merchant;

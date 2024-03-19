@@ -135,3 +135,22 @@ exports[`main 8`] = `
   },
 }
 `;
+
+exports[`main 9`] = `null`;
+
+exports[`main 10`] = `
+{
+  "account": {
+    "number": "5203",
+    "number_formatted": "x5203",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 71,
+    "currency": "INR",
+    "date": "Sun Mar 17 2024 12:01:19 GMT+0000 (India Standard Time)",
+    "merchant": "Swiggy",
+    "type": "debit",
+  },
+}
+`;

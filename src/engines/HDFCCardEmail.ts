@@ -21,8 +21,8 @@ export default class HDFCCard extends Engine {
   }
 
   protected getTransactionDetails(): TransactionData {
-    const merchant = /\bat\s(.+?)\son/gi.exec(this.message)?.[1]
-      || /from\s(.+?)\sto/gi.exec(this.message)?.[1]
+    const merchant = /\bRs\s\d+\.\d{2}\sat\s(.+?)\son/gi.exec(this.message)?.[1]
+      || /\bRs\s\d+\.\d{2},\sfrom\s(.+?)\sto/gi.exec(this.message)?.[1]
       || null;
 
     const _date = /(\d{2}-\d{2}-\d{4}\s\d{2}:\d{2}:\d{2})/.exec(this.message)?.[1] || '';
