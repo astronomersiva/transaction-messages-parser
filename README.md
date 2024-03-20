@@ -9,7 +9,7 @@ This is a WIP project to parse transaction messages(email and SMS) from differen
 - [ ] AU Small Finance Bank
   - [x] Credit Card
 - [x] Axis Bank
-  - [x] Credit Card
+  - [x] Credit Card - **SMS and Email**
   - [x] Debit Card
   - [x] Savings Account
   - [x] UPI

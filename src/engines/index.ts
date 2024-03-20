@@ -41,6 +41,9 @@ const ParsingEngines = [
     engine: 'AxisBankTransfer',
     rule: /SMS BLOCKALL.*- Axis Bank/,
   }, {
+    engine: 'AxisCardEmail',
+    rule: /Transaction alert on Axis Bank Credit Card no/,
+  }, {
     engine: 'AxisCard',
     rule: /if not you - Axis Bank/,
   }, {
