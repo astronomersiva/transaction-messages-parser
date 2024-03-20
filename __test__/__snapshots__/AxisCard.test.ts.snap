@@ -16,3 +16,20 @@ exports[`main 1`] = `
   },
 }
 `;
+
+exports[`main 2`] = `
+{
+  "account": {
+    "number": "XX5489",
+    "number_formatted": "x5489",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 4760.92,
+    "currency": "INR",
+    "date": "Wed Mar 20 2024 12:23:39 GMT+0000 (India Standard Time)",
+    "merchant": "KAVITHAA AG",
+    "type": "debit",
+  },
+}
+`;
