@@ -10,6 +10,7 @@ const ParsingEngines = [
     rule: [
       /On HDFC Bank CREDIT Card/,
       /hdfc bank card.*block cc/i,
+      /On HDFCBank Card/,
     ],
   }, {
     engine: 'HDFCUPIEmail',

@@ -14,21 +14,25 @@ export default abstract class Engine {
     const account: Account = this.getAccountDetails();
     const transactionData: TransactionData = this.getTransactionDetails();
 
-    const transaction: Transaction = {
+    const transactionInfo: Transaction = {
       account,
       transaction: transactionData,
     };
 
-    if (transaction?.account?.number) {
-      transaction.account.number_formatted = transaction.account.number
+    if (transactionInfo?.account?.number) {
+      transactionInfo.account.number_formatted = transactionInfo.account.number
         .replace(/x+/gi, 'x')
         .replace(/\*+/g, 'x');
   
-      if (!transaction.account.number_formatted.startsWith('x')) {
-        transaction.account.number_formatted = `x${transaction.account.number_formatted}`;
+      if (!transactionInfo.account.number_formatted.startsWith('x')) {
+        transactionInfo.account.number_formatted = `x${transactionInfo.account.number_formatted}`;
       }
     }
 
-    return transaction;
+    if (transactionInfo?.transaction?.merchant) {
+      transactionInfo.transaction.merchant = transactionInfo.transaction.merchant.trim();
+    }
+
+    return transactionInfo;
   }
 }

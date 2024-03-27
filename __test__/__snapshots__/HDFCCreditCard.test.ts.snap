@@ -154,3 +154,20 @@ exports[`main 10`] = `
   },
 }
 `;
+
+exports[`main 11`] = `
+{
+  "account": {
+    "number": "8666",
+    "number_formatted": "x8666",
+    "type": "card",
+  },
+  "transaction": {
+    "amount": 250,
+    "currency": "INR",
+    "date": "Mon Mar 25 2024 00:00:00 GMT+0000 (India Standard Time)",
+    "merchant": "paytmqr2810050501011lwm31zp4a06@paytm",
+    "type": "debit",
+  },
+}
+`;

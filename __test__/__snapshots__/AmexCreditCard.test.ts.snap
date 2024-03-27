@@ -11,7 +11,7 @@ exports[`main 1`] = `
     "amount": 948,
     "currency": "INR",
     "date": "Wed Dec 20 2023 00:02:00 GMT+0000 (India Standard Time)",
-    "merchant": "PPSL RETAIL ",
+    "merchant": "PPSL RETAIL",
     "type": "debit",
   },
 }
